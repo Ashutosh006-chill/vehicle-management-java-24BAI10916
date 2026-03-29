@@ -1,7 +1,7 @@
 # Vehicle Management System (Java)
 **Student Name:** Ashutosh Dora  
 **Registration Number:** 24BAI10916  
-**Course:** Object-Oriented Programming (Java)
+**Course:** Programming in Java
 
 ## Project Overview
 This is a Console-Based Vehicle Management System developed in Java. It demonstrates core OOP principles including Encapsulation, Abstraction, and Collection handling (using ArrayLists) to manage a fleet of vehicles.
