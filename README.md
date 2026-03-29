@@ -1,26 +1,29 @@
-# Vehicle Management System (Java)
+# Java Vehicle Fleet Management System
 **Student Name:** Ashutosh Dora  
 **Registration Number:** 24BAI10916  
 **Course:** Programming in Java
 
 ## Project Overview
-This is a Console-Based Vehicle Management System developed in Java. It demonstrates core OOP principles including Encapsulation, Abstraction, and Collection handling (using ArrayLists) to manage a fleet of vehicles.
+This repository contains a Console-Based Vehicle Management System developed in Java. The project acts as a capstone to demonstrate core Object-Oriented Programming (OOP) principles, including Encapsulation, Abstraction, and dynamic Collection handling (using `ArrayList`), to manage a digital fleet of vehicles.
 
-## Features
-* **Add Vehicle:** Register new vehicles with unique IDs.
-* **View Fleet:** Display a formatted list of all registered vehicles.
-* **Management:** Efficiently handle vehicle data using a dedicated Manager class.
+## Core Features
+* **Register Vehicles:** Add new vehicles to the system with attributes like Brand, Model, Year, and Price.
+* **View Fleet:** Dynamically iterate through registered data and output a formatted list of all active vehicles.
+* **State Management:** Securely handle vehicle data lifecycle using the dedicated `FleetManager` class.
 
-## Setup and Execution
-1. **Prerequisites:** Ensure you have Java Development Kit (JDK) installed.
-2. **Clone the Repo:** `git clone https://github.com/Ashutosh006-chill/vehicle-management-java-24BAI10916`
-3. **Navigate to Directory:** `cd vehicle-management-java-24BAI10916`
-4. **Compile the Project:**
+## Instructions to Run (CLI)
+This application is strictly command-line interface (CLI) driven and does not require a GUI.
+
+1. **Ensure Java is Installed:** You must have the Java Development Kit (JDK) installed on your machine.
+2. **Clone the Repository:** `git clone https://github.com/Ashutosh006-chill/java-vehicle-fleet-24BAI10916.git`
+3. **Navigate to the Directory:**
+   `cd java-vehicle-fleet-24BAI10916`
+4. **Compile the Java Files:**
    `javac *.java`
-5. **Run the Application:**
+5. **Execute the Program:**
    `java Main`
 
-## Project Structure
-* `Vehicle.java`: The base model class for vehicle attributes.
-* `VehicleManager.java`: Logic for adding and listing vehicles.
-* `Main.java`: The entry point with the user menu.
+## Repository Structure
+* `Vehicle.java`: The foundational data model encapsulating vehicle attributes.
+* `FleetManager.java`: The controller class handling the business logic and `List` data structures.
+* `Main.java`: The primary entry point containing the interactive user loop and `Scanner` implementation.
